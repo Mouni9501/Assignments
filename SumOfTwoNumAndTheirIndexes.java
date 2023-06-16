@@ -11,7 +11,7 @@ public class SumOfTwoNumAndTheirIndexes
          int output[] = new int[2];
          for(int i=0;i<inputLength;i++)
          {
-             for(int j=i+1;j<inputLength-1;j++)
+             for(int j=i+1;j<inputLength;j++)
              {
                  int a = input[i];
                  int b = input[j];
