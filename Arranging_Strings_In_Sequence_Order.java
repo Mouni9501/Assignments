@@ -1,5 +1,4 @@
 
-
 public class Arranging_Strings_In_Sequence_Order
 {
     public static void main(String args[])
@@ -22,7 +21,6 @@ public class Arranging_Strings_In_Sequence_Order
                 s="";
             }
         }
-
         for(String ab:output)
        {
            if(ab!= null)

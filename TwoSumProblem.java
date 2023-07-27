@@ -1,6 +1,5 @@
 import java.util.HashMap;
 import java.util.Map;
-
 public class TwoSumProblem
 {
     public static void main(String args[])
@@ -15,23 +14,15 @@ public class TwoSumProblem
         //t = target-45 = 54// i=4
         Map<Integer, Integer> mp = new HashMap<>();
         int compliment=0;
-
         for(int i=0;i<input.length;i++)
         {
            compliment = target-input[i];
            if(mp.containsKey(compliment))
            {
-               System.out.println(i+" "+ mp.get(compliment));
+               System.out.println(mp.get(compliment)+" "+ i);
            }
 else
             mp.put(input[i], i);
-
-
-
         }
-
-
-
-
     }
 }
